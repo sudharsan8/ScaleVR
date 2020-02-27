@@ -1,1 +1,4 @@
-
+Music Player implementation using React Native
+user can Search his/her preferred songs and can play the respective song, if the user needs to download it, Download option is also provided.
+user can select their preferred songs and store it seperately in Library section, 
+In Both Library and Browse Section the songs are displayed entirely, the songs can also be sorted based on its respective Ratings, Artist, Album
