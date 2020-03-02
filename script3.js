@@ -91,17 +91,17 @@ var Audio = React.createClass({ displayName: "Audio",
   pause: function () {
     var playbackTime = this.getPlaybackTime(this.state.player.currentTime);
 
-    localStorage.setItem('codepenReactPlayer', playbackTime);
+    localStorage.setItem('ReactPlayer', playbackTime);
   },
 
   ended: function () {
     // Set playback_time to 0.
-    localStorage.setItem('codepenReactPlayer', playbackTime);
+    localStorage.setItem('ReactPlayer', playbackTime);
   },
 
   render: function () {
     return React.createElement("audio", { controls: true, className: "player", preload: "false" },
-    React.createElement("source", { src: "http://www.nihilus.net/soundtracks/Static%20Memories.mp3" }));
+    React.createElement("source", { src: "http://www.nihilus.net/soundtracks/dancemonkey.mp3" }));
 
   } });
 
